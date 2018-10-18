@@ -102,7 +102,6 @@
     NSInteger p2 = arrayB.count - 1;
     
     
-    
     while (p1 >= 0 && p2 >= 0) {
         
         if (arrayA[p1] == arrayB[p2]) {
@@ -145,6 +144,9 @@
 //}
 
 
+
+
+voi
 
 
 
