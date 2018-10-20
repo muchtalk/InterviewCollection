@@ -17,9 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSMutableArray *array = [@[@(8),@(7),@(6),@(5),@(4),@(3)] mutableCopy];
+//    NSMutableArray *array = [@[@(8),@(7),@(6),@(5),@(4),@(3)] mutableCopy];
 
-    NSArray *sortedArray = [self insertSortWithArray:array];
+//    NSArray *sortedArray = [self insertSortWithArray:array];
 //    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 }
 
@@ -59,9 +59,9 @@
         return [array copy];
     }
     
-    for (int gap = array.count / 2; gap > 0; gap /= 2) {
+    for (NSInteger gap = array.count / 2; gap > 0; gap /= 2) {
         
-        int  j = gap;
+        NSInteger  j = gap;
         while (j - gap >= 0 && array[j] < array[j-gap]) {
             
             NSNumber *temp = array[j-gap];

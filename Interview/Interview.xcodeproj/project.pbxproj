@@ -60,6 +60,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C71AB9D22178F23800675907 /* 树 */ = {
+			isa = PBXGroup;
+			children = (
+				C71AB9D32178F23800675907 /* 遍历二叉树 */,
+				C71AB9D42178F23800675907 /* 二分查找 */,
+			);
+			path = "树";
+			sourceTree = "<group>";
+		};
+		C71AB9D32178F23800675907 /* 遍历二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "遍历二叉树";
+			sourceTree = "<group>";
+		};
+		C71AB9D42178F23800675907 /* 二分查找 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "二分查找";
+			sourceTree = "<group>";
+		};
 		C74C574E216D06FC002F5D91 /* 寻找最近公共View */ = {
 			isa = PBXGroup;
 			children = (
@@ -79,17 +102,10 @@
 		C74C577121720545002F5D91 /* 00数据结构 */ = {
 			isa = PBXGroup;
 			children = (
-				C74C577221720545002F5D91 /* 二叉树 */,
+				C71AB9D22178F23800675907 /* 树 */,
 				C74C577321720545002F5D91 /* 链表 */,
 			);
 			path = "00数据结构";
-			sourceTree = "<group>";
-		};
-		C74C577221720545002F5D91 /* 二叉树 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "二叉树";
 			sourceTree = "<group>";
 		};
 		C74C577321720545002F5D91 /* 链表 */ = {
@@ -118,8 +134,6 @@
 				C74C578521720676002F5D91 /* 04选择排序 */,
 				C74C578F21720676002F5D91 /* 05插入排序 */,
 				C74C578021720676002F5D91 /* 06希尔排序 */,
-				C74C578421720676002F5D91 /* 遍历二叉树 */,
-				C74C578821720676002F5D91 /* 二分查找 */,
 			);
 			path = "01排序算法";
 			sourceTree = "<group>";
@@ -140,13 +154,6 @@
 			path = "03冒泡排序";
 			sourceTree = "<group>";
 		};
-		C74C578421720676002F5D91 /* 遍历二叉树 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "遍历二叉树";
-			sourceTree = "<group>";
-		};
 		C74C578521720676002F5D91 /* 04选择排序 */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,13 +161,6 @@
 				C74C578721720676002F5D91 /* SelectionSortViewController.m */,
 			);
 			path = "04选择排序";
-			sourceTree = "<group>";
-		};
-		C74C578821720676002F5D91 /* 二分查找 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "二分查找";
 			sourceTree = "<group>";
 		};
 		C74C578921720676002F5D91 /* 02快速排序 */ = {
