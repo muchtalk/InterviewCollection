@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C74D121A217D6F35003C2681 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C74D1219217D6F35003C2681 /* AppDelegate.m */; };
+		C74D121D217D6F35003C2681 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C74D121C217D6F35003C2681 /* ViewController.m */; };
+		C74D1220217D6F35003C2681 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74D121E217D6F35003C2681 /* Main.storyboard */; };
+		C74D1222217D6F38003C2681 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C74D1221217D6F38003C2681 /* Assets.xcassets */; };
+		C74D1225217D6F38003C2681 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74D1223217D6F38003C2681 /* LaunchScreen.storyboard */; };
+		C74D1228217D6F38003C2681 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C74D1227217D6F38003C2681 /* main.m */; };
+		C74D1231217D6FB1003C2681 /* HGView.m in Sources */ = {isa = PBXBuildFile; fileRef = C74D1230217D6FB1003C2681 /* HGView.m */; };
+		C74D1234217D71FB003C2681 /* HGView+UIViewGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = C74D1233217D71FB003C2681 /* HGView+UIViewGeometry.m */; };
+		C74D1237217D7230003C2681 /* HGView+UIViewHierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = C74D1236217D7230003C2681 /* HGView+UIViewHierarchy.m */; };
+		C74D123A217D726D003C2681 /* HGView+UIViewRendering.m in Sources */ = {isa = PBXBuildFile; fileRef = C74D1239217D726D003C2681 /* HGView+UIViewRendering.m */; };
+		C74D123D217D72A1003C2681 /* HGView+UIViewAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C74D123C217D72A1003C2681 /* HGView+UIViewAnimation.m */; };
+		C74D1240217D732B003C2681 /* HGView+UIViewAnimationWithBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = C74D123F217D732B003C2681 /* HGView+UIViewAnimationWithBlocks.m */; };
+		C74D1243217D734F003C2681 /* HGView+UIViewKeyframeAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = C74D1242217D734F003C2681 /* HGView+UIViewKeyframeAnimations.m */; };
+		C74D1246217D7365003C2681 /* HGView+UIViewGestureRecognizers.m in Sources */ = {isa = PBXBuildFile; fileRef = C74D1245217D7365003C2681 /* HGView+UIViewGestureRecognizers.m */; };
+		C74D1249217D73C8003C2681 /* HGView+UIViewMotionEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = C74D1248217D73C8003C2681 /* HGView+UIViewMotionEffects.m */; };
+		C74D124C217D7421003C2681 /* HGView+UIConstraintBasedLayoutInstallingConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = C74D124B217D7421003C2681 /* HGView+UIConstraintBasedLayoutInstallingConstraints.m */; };
+		C74D124F217D745C003C2681 /* HGView+UIConstraintBasedLayoutCoreMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = C74D124E217D745C003C2681 /* HGView+UIConstraintBasedLayoutCoreMethods.m */; };
+		C74D1252217D7488003C2681 /* HGView+UIConstraintBasedCompatibility.m in Sources */ = {isa = PBXBuildFile; fileRef = C74D1251217D7488003C2681 /* HGView+UIConstraintBasedCompatibility.m */; };
+		C74D1255217D74AC003C2681 /* HGView+UIConstraintBasedLayoutLayering.m in Sources */ = {isa = PBXBuildFile; fileRef = C74D1254217D74AC003C2681 /* HGView+UIConstraintBasedLayoutLayering.m */; };
+		C74D1258217D756B003C2681 /* HGView+UIConstraintBasedLayoutFittingSize.m in Sources */ = {isa = PBXBuildFile; fileRef = C74D1257217D756B003C2681 /* HGView+UIConstraintBasedLayoutFittingSize.m */; };
+		C74D125B217D759A003C2681 /* HGView+UILayoutGuideSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = C74D125A217D759A003C2681 /* HGView+UILayoutGuideSupport.m */; };
+		C74D125E217D75C3003C2681 /* HGView+UIViewLayoutConstraintCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = C74D125D217D75C3003C2681 /* HGView+UIViewLayoutConstraintCreation.m */; };
+		C74D1261217D772F003C2681 /* HGView+UIConstraintBasedLayoutDebugging.m in Sources */ = {isa = PBXBuildFile; fileRef = C74D1260217D772F003C2681 /* HGView+UIConstraintBasedLayoutDebugging.m */; };
+		C74D1267217D77BE003C2681 /* HGLayoutGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = C74D1266217D77BE003C2681 /* HGLayoutGuide.m */; };
+		C74D126A217D77ED003C2681 /* HGLayoutGuide+UIConstraintBasedLayoutDebugging.m in Sources */ = {isa = PBXBuildFile; fileRef = C74D1269217D77ED003C2681 /* HGLayoutGuide+UIConstraintBasedLayoutDebugging.m */; };
+		C74D126D217D791E003C2681 /* HGView+UIStateRestoration.m in Sources */ = {isa = PBXBuildFile; fileRef = C74D126C217D791E003C2681 /* HGView+UIStateRestoration.m */; };
+		C74D1270217D7947003C2681 /* HGView+UISnapshotting.m in Sources */ = {isa = PBXBuildFile; fileRef = C74D126F217D7947003C2681 /* HGView+UISnapshotting.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C74D1215217D6F35003C2681 /* 底层原理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "底层原理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C74D1218217D6F35003C2681 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C74D1219217D6F35003C2681 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C74D121B217D6F35003C2681 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C74D121C217D6F35003C2681 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C74D121F217D6F35003C2681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C74D1221217D6F38003C2681 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C74D1224217D6F38003C2681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C74D1226217D6F38003C2681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C74D1227217D6F38003C2681 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C74D122F217D6FB1003C2681 /* HGView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGView.h; sourceTree = "<group>"; };
+		C74D1230217D6FB1003C2681 /* HGView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGView.m; sourceTree = "<group>"; };
+		C74D1232217D71FB003C2681 /* HGView+UIViewGeometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HGView+UIViewGeometry.h"; sourceTree = "<group>"; };
+		C74D1233217D71FB003C2681 /* HGView+UIViewGeometry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HGView+UIViewGeometry.m"; sourceTree = "<group>"; };
+		C74D1235217D7230003C2681 /* HGView+UIViewHierarchy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HGView+UIViewHierarchy.h"; sourceTree = "<group>"; };
+		C74D1236217D7230003C2681 /* HGView+UIViewHierarchy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HGView+UIViewHierarchy.m"; sourceTree = "<group>"; };
+		C74D1238217D726D003C2681 /* HGView+UIViewRendering.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HGView+UIViewRendering.h"; sourceTree = "<group>"; };
+		C74D1239217D726D003C2681 /* HGView+UIViewRendering.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HGView+UIViewRendering.m"; sourceTree = "<group>"; };
+		C74D123B217D72A1003C2681 /* HGView+UIViewAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HGView+UIViewAnimation.h"; sourceTree = "<group>"; };
+		C74D123C217D72A1003C2681 /* HGView+UIViewAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HGView+UIViewAnimation.m"; sourceTree = "<group>"; };
+		C74D123E217D732B003C2681 /* HGView+UIViewAnimationWithBlocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HGView+UIViewAnimationWithBlocks.h"; sourceTree = "<group>"; };
+		C74D123F217D732B003C2681 /* HGView+UIViewAnimationWithBlocks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HGView+UIViewAnimationWithBlocks.m"; sourceTree = "<group>"; };
+		C74D1241217D734F003C2681 /* HGView+UIViewKeyframeAnimations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HGView+UIViewKeyframeAnimations.h"; sourceTree = "<group>"; };
+		C74D1242217D734F003C2681 /* HGView+UIViewKeyframeAnimations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HGView+UIViewKeyframeAnimations.m"; sourceTree = "<group>"; };
+		C74D1244217D7365003C2681 /* HGView+UIViewGestureRecognizers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HGView+UIViewGestureRecognizers.h"; sourceTree = "<group>"; };
+		C74D1245217D7365003C2681 /* HGView+UIViewGestureRecognizers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HGView+UIViewGestureRecognizers.m"; sourceTree = "<group>"; };
+		C74D1247217D73C8003C2681 /* HGView+UIViewMotionEffects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HGView+UIViewMotionEffects.h"; sourceTree = "<group>"; };
+		C74D1248217D73C8003C2681 /* HGView+UIViewMotionEffects.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HGView+UIViewMotionEffects.m"; sourceTree = "<group>"; };
+		C74D124A217D7421003C2681 /* HGView+UIConstraintBasedLayoutInstallingConstraints.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HGView+UIConstraintBasedLayoutInstallingConstraints.h"; sourceTree = "<group>"; };
+		C74D124B217D7421003C2681 /* HGView+UIConstraintBasedLayoutInstallingConstraints.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HGView+UIConstraintBasedLayoutInstallingConstraints.m"; sourceTree = "<group>"; };
+		C74D124D217D745C003C2681 /* HGView+UIConstraintBasedLayoutCoreMethods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HGView+UIConstraintBasedLayoutCoreMethods.h"; sourceTree = "<group>"; };
+		C74D124E217D745C003C2681 /* HGView+UIConstraintBasedLayoutCoreMethods.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HGView+UIConstraintBasedLayoutCoreMethods.m"; sourceTree = "<group>"; };
+		C74D1250217D7488003C2681 /* HGView+UIConstraintBasedCompatibility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HGView+UIConstraintBasedCompatibility.h"; sourceTree = "<group>"; };
+		C74D1251217D7488003C2681 /* HGView+UIConstraintBasedCompatibility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HGView+UIConstraintBasedCompatibility.m"; sourceTree = "<group>"; };
+		C74D1253217D74AC003C2681 /* HGView+UIConstraintBasedLayoutLayering.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HGView+UIConstraintBasedLayoutLayering.h"; sourceTree = "<group>"; };
+		C74D1254217D74AC003C2681 /* HGView+UIConstraintBasedLayoutLayering.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HGView+UIConstraintBasedLayoutLayering.m"; sourceTree = "<group>"; };
+		C74D1256217D756B003C2681 /* HGView+UIConstraintBasedLayoutFittingSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HGView+UIConstraintBasedLayoutFittingSize.h"; sourceTree = "<group>"; };
+		C74D1257217D756B003C2681 /* HGView+UIConstraintBasedLayoutFittingSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HGView+UIConstraintBasedLayoutFittingSize.m"; sourceTree = "<group>"; };
+		C74D1259217D759A003C2681 /* HGView+UILayoutGuideSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HGView+UILayoutGuideSupport.h"; sourceTree = "<group>"; };
+		C74D125A217D759A003C2681 /* HGView+UILayoutGuideSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HGView+UILayoutGuideSupport.m"; sourceTree = "<group>"; };
+		C74D125C217D75C3003C2681 /* HGView+UIViewLayoutConstraintCreation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HGView+UIViewLayoutConstraintCreation.h"; sourceTree = "<group>"; };
+		C74D125D217D75C3003C2681 /* HGView+UIViewLayoutConstraintCreation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HGView+UIViewLayoutConstraintCreation.m"; sourceTree = "<group>"; };
+		C74D125F217D772F003C2681 /* HGView+UIConstraintBasedLayoutDebugging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HGView+UIConstraintBasedLayoutDebugging.h"; sourceTree = "<group>"; };
+		C74D1260217D772F003C2681 /* HGView+UIConstraintBasedLayoutDebugging.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HGView+UIConstraintBasedLayoutDebugging.m"; sourceTree = "<group>"; };
+		C74D1265217D77BE003C2681 /* HGLayoutGuide.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGLayoutGuide.h; sourceTree = "<group>"; };
+		C74D1266217D77BE003C2681 /* HGLayoutGuide.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGLayoutGuide.m; sourceTree = "<group>"; };
+		C74D1268217D77ED003C2681 /* HGLayoutGuide+UIConstraintBasedLayoutDebugging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HGLayoutGuide+UIConstraintBasedLayoutDebugging.h"; sourceTree = "<group>"; };
+		C74D1269217D77ED003C2681 /* HGLayoutGuide+UIConstraintBasedLayoutDebugging.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HGLayoutGuide+UIConstraintBasedLayoutDebugging.m"; sourceTree = "<group>"; };
+		C74D126B217D791E003C2681 /* HGView+UIStateRestoration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HGView+UIStateRestoration.h"; sourceTree = "<group>"; };
+		C74D126C217D791E003C2681 /* HGView+UIStateRestoration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HGView+UIStateRestoration.m"; sourceTree = "<group>"; };
+		C74D126E217D7947003C2681 /* HGView+UISnapshotting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HGView+UISnapshotting.h"; sourceTree = "<group>"; };
+		C74D126F217D7947003C2681 /* HGView+UISnapshotting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HGView+UISnapshotting.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C74D1212217D6F35003C2681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C74D120C217D6F35003C2681 = {
+			isa = PBXGroup;
+			children = (
+				C74D122E217D6F9B003C2681 /* UIViewsCatergory */,
+				C74D1217217D6F35003C2681 /* 底层原理 */,
+				C74D1216217D6F35003C2681 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C74D1216217D6F35003C2681 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C74D1215217D6F35003C2681 /* 底层原理.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C74D1217217D6F35003C2681 /* 底层原理 */ = {
+			isa = PBXGroup;
+			children = (
+				C74D1218217D6F35003C2681 /* AppDelegate.h */,
+				C74D1219217D6F35003C2681 /* AppDelegate.m */,
+				C74D121B217D6F35003C2681 /* ViewController.h */,
+				C74D121C217D6F35003C2681 /* ViewController.m */,
+				C74D121E217D6F35003C2681 /* Main.storyboard */,
+				C74D1221217D6F38003C2681 /* Assets.xcassets */,
+				C74D1223217D6F38003C2681 /* LaunchScreen.storyboard */,
+				C74D1226217D6F38003C2681 /* Info.plist */,
+				C74D1227217D6F38003C2681 /* main.m */,
+			);
+			path = "底层原理";
+			sourceTree = "<group>";
+		};
+		C74D122E217D6F9B003C2681 /* UIViewsCatergory */ = {
+			isa = PBXGroup;
+			children = (
+				C74D122F217D6FB1003C2681 /* HGView.h */,
+				C74D1230217D6FB1003C2681 /* HGView.m */,
+				C74D123B217D72A1003C2681 /* HGView+UIViewAnimation.h */,
+				C74D123C217D72A1003C2681 /* HGView+UIViewAnimation.m */,
+				C74D123E217D732B003C2681 /* HGView+UIViewAnimationWithBlocks.h */,
+				C74D123F217D732B003C2681 /* HGView+UIViewAnimationWithBlocks.m */,
+				C74D1241217D734F003C2681 /* HGView+UIViewKeyframeAnimations.h */,
+				C74D1242217D734F003C2681 /* HGView+UIViewKeyframeAnimations.m */,
+				C74D1244217D7365003C2681 /* HGView+UIViewGestureRecognizers.h */,
+				C74D1245217D7365003C2681 /* HGView+UIViewGestureRecognizers.m */,
+				C74D1232217D71FB003C2681 /* HGView+UIViewGeometry.h */,
+				C74D1233217D71FB003C2681 /* HGView+UIViewGeometry.m */,
+				C74D1235217D7230003C2681 /* HGView+UIViewHierarchy.h */,
+				C74D1236217D7230003C2681 /* HGView+UIViewHierarchy.m */,
+				C74D1238217D726D003C2681 /* HGView+UIViewRendering.h */,
+				C74D1239217D726D003C2681 /* HGView+UIViewRendering.m */,
+				C74D1247217D73C8003C2681 /* HGView+UIViewMotionEffects.h */,
+				C74D1248217D73C8003C2681 /* HGView+UIViewMotionEffects.m */,
+				C74D124A217D7421003C2681 /* HGView+UIConstraintBasedLayoutInstallingConstraints.h */,
+				C74D124B217D7421003C2681 /* HGView+UIConstraintBasedLayoutInstallingConstraints.m */,
+				C74D124D217D745C003C2681 /* HGView+UIConstraintBasedLayoutCoreMethods.h */,
+				C74D124E217D745C003C2681 /* HGView+UIConstraintBasedLayoutCoreMethods.m */,
+				C74D1250217D7488003C2681 /* HGView+UIConstraintBasedCompatibility.h */,
+				C74D1251217D7488003C2681 /* HGView+UIConstraintBasedCompatibility.m */,
+				C74D1253217D74AC003C2681 /* HGView+UIConstraintBasedLayoutLayering.h */,
+				C74D1254217D74AC003C2681 /* HGView+UIConstraintBasedLayoutLayering.m */,
+				C74D1256217D756B003C2681 /* HGView+UIConstraintBasedLayoutFittingSize.h */,
+				C74D1257217D756B003C2681 /* HGView+UIConstraintBasedLayoutFittingSize.m */,
+				C74D1259217D759A003C2681 /* HGView+UILayoutGuideSupport.h */,
+				C74D125A217D759A003C2681 /* HGView+UILayoutGuideSupport.m */,
+				C74D125C217D75C3003C2681 /* HGView+UIViewLayoutConstraintCreation.h */,
+				C74D125D217D75C3003C2681 /* HGView+UIViewLayoutConstraintCreation.m */,
+				C74D125F217D772F003C2681 /* HGView+UIConstraintBasedLayoutDebugging.h */,
+				C74D1260217D772F003C2681 /* HGView+UIConstraintBasedLayoutDebugging.m */,
+				C74D1265217D77BE003C2681 /* HGLayoutGuide.h */,
+				C74D1266217D77BE003C2681 /* HGLayoutGuide.m */,
+				C74D1268217D77ED003C2681 /* HGLayoutGuide+UIConstraintBasedLayoutDebugging.h */,
+				C74D1269217D77ED003C2681 /* HGLayoutGuide+UIConstraintBasedLayoutDebugging.m */,
+				C74D126B217D791E003C2681 /* HGView+UIStateRestoration.h */,
+				C74D126C217D791E003C2681 /* HGView+UIStateRestoration.m */,
+				C74D126E217D7947003C2681 /* HGView+UISnapshotting.h */,
+				C74D126F217D7947003C2681 /* HGView+UISnapshotting.m */,
+			);
+			path = UIViewsCatergory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C74D1214217D6F35003C2681 /* 底层原理 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C74D122B217D6F38003C2681 /* Build configuration list for PBXNativeTarget "底层原理" */;
+			buildPhases = (
+				C74D1211217D6F35003C2681 /* Sources */,
+				C74D1212217D6F35003C2681 /* Frameworks */,
+				C74D1213217D6F35003C2681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "底层原理";
+			productName = "底层原理";
+			productReference = C74D1215217D6F35003C2681 /* 底层原理.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C74D120D217D6F35003C2681 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = HG;
+				TargetAttributes = {
+					C74D1214217D6F35003C2681 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = C74D1210217D6F35003C2681 /* Build configuration list for PBXProject "底层原理" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C74D120C217D6F35003C2681;
+			productRefGroup = C74D1216217D6F35003C2681 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C74D1214217D6F35003C2681 /* 底层原理 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C74D1213217D6F35003C2681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C74D1225217D6F38003C2681 /* LaunchScreen.storyboard in Resources */,
+				C74D1222217D6F38003C2681 /* Assets.xcassets in Resources */,
+				C74D1220217D6F35003C2681 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C74D1211217D6F35003C2681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C74D125B217D759A003C2681 /* HGView+UILayoutGuideSupport.m in Sources */,
+				C74D126A217D77ED003C2681 /* HGLayoutGuide+UIConstraintBasedLayoutDebugging.m in Sources */,
+				C74D124F217D745C003C2681 /* HGView+UIConstraintBasedLayoutCoreMethods.m in Sources */,
+				C74D121D217D6F35003C2681 /* ViewController.m in Sources */,
+				C74D123D217D72A1003C2681 /* HGView+UIViewAnimation.m in Sources */,
+				C74D1255217D74AC003C2681 /* HGView+UIConstraintBasedLayoutLayering.m in Sources */,
+				C74D1234217D71FB003C2681 /* HGView+UIViewGeometry.m in Sources */,
+				C74D1270217D7947003C2681 /* HGView+UISnapshotting.m in Sources */,
+				C74D124C217D7421003C2681 /* HGView+UIConstraintBasedLayoutInstallingConstraints.m in Sources */,
+				C74D1258217D756B003C2681 /* HGView+UIConstraintBasedLayoutFittingSize.m in Sources */,
+				C74D1249217D73C8003C2681 /* HGView+UIViewMotionEffects.m in Sources */,
+				C74D1261217D772F003C2681 /* HGView+UIConstraintBasedLayoutDebugging.m in Sources */,
+				C74D1240217D732B003C2681 /* HGView+UIViewAnimationWithBlocks.m in Sources */,
+				C74D1252217D7488003C2681 /* HGView+UIConstraintBasedCompatibility.m in Sources */,
+				C74D1246217D7365003C2681 /* HGView+UIViewGestureRecognizers.m in Sources */,
+				C74D1267217D77BE003C2681 /* HGLayoutGuide.m in Sources */,
+				C74D126D217D791E003C2681 /* HGView+UIStateRestoration.m in Sources */,
+				C74D125E217D75C3003C2681 /* HGView+UIViewLayoutConstraintCreation.m in Sources */,
+				C74D1231217D6FB1003C2681 /* HGView.m in Sources */,
+				C74D1228217D6F38003C2681 /* main.m in Sources */,
+				C74D1237217D7230003C2681 /* HGView+UIViewHierarchy.m in Sources */,
+				C74D1243217D734F003C2681 /* HGView+UIViewKeyframeAnimations.m in Sources */,
+				C74D121A217D6F35003C2681 /* AppDelegate.m in Sources */,
+				C74D123A217D726D003C2681 /* HGView+UIViewRendering.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C74D121E217D6F35003C2681 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C74D121F217D6F35003C2681 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C74D1223217D6F38003C2681 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C74D1224217D6F38003C2681 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C74D1229217D6F38003C2681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C74D122A217D6F38003C2681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C74D122C217D6F38003C2681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "底层原理/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hg.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C74D122D217D6F38003C2681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "底层原理/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hg.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C74D1210217D6F35003C2681 /* Build configuration list for PBXProject "底层原理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C74D1229217D6F38003C2681 /* Debug */,
+				C74D122A217D6F38003C2681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C74D122B217D6F38003C2681 /* Build configuration list for PBXNativeTarget "底层原理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C74D122C217D6F38003C2681 /* Debug */,
+				C74D122D217D6F38003C2681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C74D120D217D6F35003C2681 /* Project object */;
+}
