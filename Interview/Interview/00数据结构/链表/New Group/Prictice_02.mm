@@ -85,7 +85,7 @@ void addNodeAtAtHead(int value,ListNode *list){
 }
 
 void addAtTail(int tail, ListNode *list){
-    ListNode *next = new ListNode(tail);
+//    ListNode *next = new ListNode(tail);
 
 }
 
